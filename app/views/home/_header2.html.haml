@@ -1,7 +1,7 @@
 .myheader
   .mybox
     .myboxtop
-      .myboxtop__img
+      = link_to root_path, class: "" do
         = image_tag "fmarket_logo_red.svg", class: "myboxtop__img", alt:"logo"
       .myboxtop__form
         %input#keyword.boxtop__form{:placeholder => "何かお探しですか？", :type => "text"}/
